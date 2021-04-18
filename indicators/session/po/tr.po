@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2019-04-17 20:54+0000\n"
+"Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.5.1\n"
+"X-Launchpad-Export-Date: 2017-02-09 06:03+0000\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr "Kullanıcı Hesabı Ayarları…"
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Oturumu Kapat…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Kilitle"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "Bilgisayarı Kapat…"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Askıya Al"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Oturumu kapatmak istediğinizden emin misiniz?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Bu işlem açık olan tüm uygulamaları kapatacak."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Oturumu Kapat"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Bilgisayarı kapatmak istediğinizden emin misiniz?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr "Bu işlem açık olan tüm uygulamaları ve bu cihazı kapatacak."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Bilgisayarı Kapat"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Yeniden Başlat"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Konuk"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "Oturum açıldı"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "Oturum kapatıldı"
+
+#~ msgid "Session"
+#~ msgstr "Oturum"
+
+#~ msgid "The session indicator"
+#~ msgstr "Oturum göstergesi"

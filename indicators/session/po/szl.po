@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2020-02-22 19:08+0000\n"
+"Last-Translator: gkkulik <g.kulik@o2.pl>\n"
+"Language-Team: Silesian <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/szl/>\n"
+"Language: szl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr "Sztelōnki kōnta ôd używocza…"
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Ôdloguj…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Zablokuj"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "Zawrzij…"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Strzim"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Na zicher chcesz sie ôdlogować?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Wszyjske ôtwarte programy bydōm zawarte."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Ôdloguj sie"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Na zicher chcesz zawrzić?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr "Wszyjske ôtwarte programy bydōm zawarte, a maszina zastawiōno."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Zawrzij"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "Pociep"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Zresztartuj"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Gość"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "Wlogowano"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "Ôdlogowano"
+
+#~ msgid "Session"
+#~ msgstr "Sesyjo"
+
+#~ msgid "The session indicator"
+#~ msgstr "Skaźnik sesyje"

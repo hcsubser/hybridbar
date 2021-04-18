@@ -1,0 +1,22 @@
+.accent {
+    font-weight: bold;
+}
+
+grid:disabled .accent {
+    color: @insensitive_color;
+}
+
+grid-day {
+    padding: 0.6em 0;
+}
+
+grid-day label {
+    margin-top: 0.2em;
+    min-width: 2em;
+    min-height: 2em;
+}
+
+grid-day:selected label {
+    background: @selected_bg_color;
+    color: @selected_fg_color;
+}

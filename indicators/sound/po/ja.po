@@ -1,0 +1,41 @@
+# Ryo Nakano <ryonakaknock3@gmail.com>, 2019, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2020-04-08 21:10+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://l10n.elementary.io/projects/wingpanel/wingpanel-indicator-sound/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "サウンドの設定…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "何も再生していません"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "ミュージックプレーヤー"
+
+#: src/Widgets/MprisGui.vala:531
+msgid "Unknown Artist"
+msgstr "不明なアーティスト"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "サウンドの通知"
+
+#~ msgid "The sound indicator"
+#~ msgstr "サウンドインジケーター"
+
+#~ msgid "by "
+#~ msgstr "by "

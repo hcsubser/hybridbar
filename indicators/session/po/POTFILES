@@ -1,0 +1,6 @@
+src/Indicator.vala
+src/Widgets/EndSessionDialog.vala
+src/Widgets/UserBox.vala
+src/Widgets/UserListBox.vala
+src/Services/DbusInterfaces.vala
+src/Services/UserManager.vala

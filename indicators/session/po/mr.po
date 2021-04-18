@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2018-10-27 18:11+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"Language-Team: Marathi <https://weblate.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/mr/>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+"X-Launchpad-Export-Date: 2017-02-09 06:03+0000\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr "वापरकर्ता खाती सेटिंग्ज …"
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "बाहेर पडणे…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "लॉक करा"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "बंद करा …"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "स्थगित करा"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "तुम्हाला नक्की लॉग आउट करायचे आहे का?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "हे सर्व खुले अनुप्रयोग बंद करेल."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "बाहेर पडा"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "आपणास खात्री आहे की आपण बंद करू इच्छिता?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr "हे सर्व उघडे अनुप्रयोग बंद करेल आणि हे डिव्हाइस बंद करेल."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "बंद करा"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "रद्द करा"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "पुन्हा सुरू करा"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "अतिथी"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "सत्र आरम्भ"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "सत्रांत झाला आहे"
+
+#~ msgid "Session"
+#~ msgstr "सत्र"
+
+#~ msgid "The session indicator"
+#~ msgstr "सत्र सूचक"

@@ -1,0 +1,18 @@
+com.github.lafydev.wingpanel-indicator-ayatana (2.0.7) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * d/control:
+    - Switch to debhelper-compat
+    - Add Build-Depends on libwingpanel-3.0-dev
+    - Update Standards-Version to 4.5.0
+    - Set Rules-Requires-Root: no
+  * d/copyright:
+    - Update format to standard format 1.0
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 01 Mar 2021 21:11:43 -0500
+
+wingpanel-indicator-ayatana (0.1) trusty; urgency=low
+
+  * Initial Release.
+
+ -- Cody Garver <cody@elementary.io>  Sat, 20 Jun 2015 20:47:26 -0500

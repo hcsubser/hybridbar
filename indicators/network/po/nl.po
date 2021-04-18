@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 22:19+0000\n"
+"PO-Revision-Date: 2020-03-05 14:09+0000\n"
+"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-network/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2016-11-29 05:01+0000\n"
+
+#: src/Indicator.vala:104 src/Indicator.vala:117
+#: src/Widgets/EtherInterface.vala:60
+msgid "Wired"
+msgstr "Bekabeld"
+
+#: src/Indicator.vala:105
+#, fuzzy
+#| msgid "Connect to Hidden Network…"
+msgid "Connecting to wired network"
+msgstr "Verbind met onzichtbaar netwerk…"
+
+#: src/Indicator.vala:107 src/Indicator.vala:112
+#, fuzzy, c-format
+#| msgid "Connecting"
+msgid "Connecting to “%s”"
+msgstr "Verbinding maken"
+
+#: src/Indicator.vala:118
+#, fuzzy
+#| msgid "Connect to Hidden Network…"
+msgid "Connected to wired network"
+msgstr "Verbind met onzichtbaar netwerk…"
+
+#: src/Indicator.vala:120 src/Indicator.vala:132
+#, fuzzy, c-format
+#| msgid "Connected"
+msgid "Connected to “%s”"
+msgstr "Verbonden"
+
+#: src/Indicator.vala:138
+msgid "Failed to connect"
+msgstr ""
+
+#: src/Indicator.vala:142
+msgid "Disconnected"
+msgstr "Niet verbonden"
+
+#: src/Indicator.vala:145
+#, fuzzy
+#| msgid "Connected"
+msgid "Not connected"
+msgstr "Verbonden"
+
+#: src/Indicator.vala:159 src/Indicator.vala:171
+msgid "unknown network"
+msgstr ""
+
+#: src/common/Widgets/VpnMenuItem.vala:62
+msgid "This Virtual Private Network could not be connected to."
+msgstr "Kon geen verbinding maken met dit Virtueel Privaat Netwerk."
+
+#: src/common/Widgets/WidgetNMInterface.vala:22
+msgid "Unknown device"
+msgstr "Onbekend apparaat"
+
+#: src/common/Widgets/WidgetNMInterface.vala:34
+#, c-format
+msgid "Unknown type: %s "
+msgstr "Onbekend type: %s "
+
+#: src/common/Widgets/WifiMenuItem.vala:70
+msgid "Unable to connect"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:142
+#, fuzzy
+#| msgid "This network uses 40/64-bit WEP encryption"
+msgid "40/64-bit WEP encrypted"
+msgstr "Dit netwerk gebruikt 40/64-bits WEP-encryptie"
+
+#: src/common/Widgets/WifiMenuItem.vala:145
+#, fuzzy
+#| msgid "This network uses 104/128-bit WEP encryption"
+msgid "104/128-bit WEP encrypted"
+msgstr "Dit netwerk gebruikt 104/128-bits WEP-encryptie"
+
+#: src/common/Widgets/WifiMenuItem.vala:148
+msgid "WPA encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:151
+msgid "Encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:153
+msgid "Unsecured"
+msgstr ""
+
+#: src/Widgets/EtherInterface.vala:57
+#, c-format
+msgid "Virtual network: %s"
+msgstr "Virtueel netwerk: %s"
+
+#: src/Widgets/ModemInterface.vala:83
+#, c-format
+msgid "Mobile Broadband: %s"
+msgstr "Mobiele breedbandverbinding: %s"
+
+#: src/Widgets/ModemInterface.vala:85
+msgid "Mobile Broadband"
+msgstr "Mobiele breedbandverbinding"
+
+#: src/Widgets/ModemInterface.vala:91
+msgid "Modem"
+msgstr "Modem"
+
+#: src/Widgets/VpnInterface.vala:41 src/Widgets/VpnInterface.vala:89
+msgid "VPN"
+msgstr "VPN"
+
+#: src/Widgets/WifiInterface.vala:87
+msgid "No Access Points Available"
+msgstr "Geen Toegangspunten Beschikbaar"
+
+#: src/Widgets/WifiInterface.vala:89
+msgid "Scanning for Access Points…"
+msgstr "Scannen naar toegangspunten…"
+
+#: src/Widgets/WifiInterface.vala:137
+msgid "Wireless"
+msgstr "Draadloos"
+
+#: src/Widgets/PopoverWidget.vala:56
+msgid "Connect to Hidden Network…"
+msgstr "Verbind met onzichtbaar netwerk…"
+
+#: src/Widgets/PopoverWidget.vala:60
+msgid "Network Settings…"
+msgstr "Netwerkinstellingen…"
+
+#~ msgid "This wireless network could not be connected to."
+#~ msgstr "Kan geen verbinding met dit wifi-netwerk maken."
+
+#~ msgid "This network uses WPA encryption"
+#~ msgstr "Dit netwerk gebruikt WPA-encryptie"
+
+#~ msgid "This network uses encryption"
+#~ msgstr "Dit netwerk gebruikt encryptie"
+
+#~ msgid "This network is unsecured"
+#~ msgstr "Dit netwerk is onbeveiligd"
+
+#~ msgid "Network"
+#~ msgstr "Netwerk"
+
+#~ msgid "Network indicator"
+#~ msgstr "Netwerkindicator"
+
+#~ msgid "There are no wireless access points within range."
+#~ msgstr "Er bevinden zich geen draadloze toegangspunten binnen bereik."
+
+#~ msgid "Wireless Is Disabled"
+#~ msgstr "Draadloos is uitgeschakeld"
+
+#~ msgid "Enable wireless to discover nearby wireless access points."
+#~ msgstr ""
+#~ "Schakel wifi in om naar draadloze toegangspunten in de buurt te zoeken."
+
+#~ msgid "No VPN Available"
+#~ msgstr "Geen VPN beschikbaar"
+
+#~ msgid "Hotspot"
+#~ msgstr "Hotspot"
+
+#~ msgid "Hotspot %s"
+#~ msgstr "Hotspot %s"
+
+#~ msgid "Failed"
+#~ msgstr "Mislukt"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Kabel niet verbonden"
+
+#~ msgid "Airplane mode enabled"
+#~ msgstr "Vliegtuigmodus ingeschakeld"
+
+#~ msgid "Unknown"
+#~ msgstr "Onbekend"

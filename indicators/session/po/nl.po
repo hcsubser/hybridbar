@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2020-06-19 21:11+0000\n"
+"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"Language-Team: Dutch <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-02-09 06:03+0000\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr "Gebruikersinstellingen…"
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Afmelden…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Vergrendel"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "Afsluiten…"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Slaapstand"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Weet u zeker dat u wilt afmelden?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Alle geopende toepassingen zullen worden gesloten."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Afmelden"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Weet u zeker dat u wilt afsluiten?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr ""
+"Dit zal alle geopende toepassingen sluiten en het toestel uitschakelen."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Uitschakelen"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Opnieuw opstarten"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Gast"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "Aangemeld"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "Afgemeld"
+
+#~ msgid "Session"
+#~ msgstr "Sessie"
+
+#~ msgid "The session indicator"
+#~ msgstr "De sessie indicator"

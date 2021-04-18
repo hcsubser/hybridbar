@@ -1,0 +1,47 @@
+# Ukrainian translation for wingpanel-indicator-sound
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the wingpanel-indicator-sound package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+# Ihor Hordiichuk <igor_ck@outlook.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: wingpanel-indicator-sound\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2020-09-12 18:14+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"Language-Team: Ukrainian <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-sound/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Параметри звуку…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Нічого не відтворюється"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Музичний програвач"
+
+#: src/Widgets/MprisGui.vala:531
+msgid "Unknown Artist"
+msgstr "Невідомий виконавець"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Індикатор звуку"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Індикатор звуку"
+
+#~ msgid "by "
+#~ msgstr "від "

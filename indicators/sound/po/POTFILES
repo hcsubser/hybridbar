@@ -1,0 +1,10 @@
+src/Indicator.vala
+src/Services/Device.vala
+src/Services/Manager.vala
+src/Services/MediaPlayer.vala
+src/Services/MprisClient.vala
+src/Services/Volume-control.vala
+src/Widgets/DisplayWidget.vala
+src/Widgets/MprisGui.vala
+src/Widgets/MprisWidget.vala
+src/Widgets/Scale.vala

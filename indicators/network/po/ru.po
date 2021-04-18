@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 22:19+0000\n"
+"PO-Revision-Date: 2021-03-05 00:17+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-network/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2016-11-29 05:01+0000\n"
+
+#: src/Indicator.vala:104 src/Indicator.vala:117
+#: src/Widgets/EtherInterface.vala:60
+msgid "Wired"
+msgstr "Проводное"
+
+#: src/Indicator.vala:105
+msgid "Connecting to wired network"
+msgstr "Подключение к проводной сети"
+
+#: src/Indicator.vala:107 src/Indicator.vala:112
+#, c-format
+msgid "Connecting to “%s”"
+msgstr "Подключение к «%s»"
+
+#: src/Indicator.vala:118
+msgid "Connected to wired network"
+msgstr "Подключено к проводной сети"
+
+#: src/Indicator.vala:120 src/Indicator.vala:132
+#, c-format
+msgid "Connected to “%s”"
+msgstr "Подключено к «%s»"
+
+#: src/Indicator.vala:138
+msgid "Failed to connect"
+msgstr "Не удалось подключиться"
+
+#: src/Indicator.vala:142
+msgid "Disconnected"
+msgstr "Отключено"
+
+#: src/Indicator.vala:145
+msgid "Not connected"
+msgstr "Не подключено"
+
+#: src/Indicator.vala:159 src/Indicator.vala:171
+msgid "unknown network"
+msgstr "неизвестная сеть"
+
+#: src/common/Widgets/VpnMenuItem.vala:62
+msgid "This Virtual Private Network could not be connected to."
+msgstr "Эта виртуальная приватная сеть не может быть подключена."
+
+#: src/common/Widgets/WidgetNMInterface.vala:22
+msgid "Unknown device"
+msgstr "Неизвестное устройство"
+
+#: src/common/Widgets/WidgetNMInterface.vala:34
+#, c-format
+msgid "Unknown type: %s "
+msgstr "Неизвестный тип: %s "
+
+#: src/common/Widgets/WifiMenuItem.vala:70
+msgid "Unable to connect"
+msgstr "Не удалось подключиться"
+
+#: src/common/Widgets/WifiMenuItem.vala:142
+msgid "40/64-bit WEP encrypted"
+msgstr "40/64-битное WEP-шифрование"
+
+#: src/common/Widgets/WifiMenuItem.vala:145
+msgid "104/128-bit WEP encrypted"
+msgstr "104/128-битное WEP-шифрование"
+
+#: src/common/Widgets/WifiMenuItem.vala:148
+msgid "WPA encrypted"
+msgstr "Шифрованние WPA"
+
+#: src/common/Widgets/WifiMenuItem.vala:151
+msgid "Encrypted"
+msgstr "Зашифровано"
+
+#: src/common/Widgets/WifiMenuItem.vala:153
+msgid "Unsecured"
+msgstr "Небезопасный"
+
+#: src/Widgets/EtherInterface.vala:57
+#, c-format
+msgid "Virtual network: %s"
+msgstr "Виртуальная сеть: %s"
+
+#: src/Widgets/ModemInterface.vala:83
+#, c-format
+msgid "Mobile Broadband: %s"
+msgstr "Мобильная сеть: %s"
+
+#: src/Widgets/ModemInterface.vala:85
+msgid "Mobile Broadband"
+msgstr "Мобильная сеть"
+
+#: src/Widgets/ModemInterface.vala:91
+msgid "Modem"
+msgstr "Модем"
+
+#: src/Widgets/VpnInterface.vala:41 src/Widgets/VpnInterface.vala:89
+msgid "VPN"
+msgstr "VPN"
+
+#: src/Widgets/WifiInterface.vala:87
+msgid "No Access Points Available"
+msgstr "Нет доступных подключений Wi-Fi"
+
+#: src/Widgets/WifiInterface.vala:89
+msgid "Scanning for Access Points…"
+msgstr "Сканирование доступных точек…"
+
+#: src/Widgets/WifiInterface.vala:137
+msgid "Wireless"
+msgstr "Беспроводная сеть"
+
+#: src/Widgets/PopoverWidget.vala:56
+msgid "Connect to Hidden Network…"
+msgstr "Подключиться к скрытой сети…"
+
+#: src/Widgets/PopoverWidget.vala:60
+msgid "Network Settings…"
+msgstr "Параметры сети…"
+
+#~ msgid "This wireless network could not be connected to."
+#~ msgstr "Эта беспроводная сеть не может быть подключена."
+
+#~ msgid "This network uses WPA encryption"
+#~ msgstr "Эта сеть использует WPA-шифрование"
+
+#~ msgid "This network uses encryption"
+#~ msgstr "Эта сеть использует шифрование"
+
+#~ msgid "This network is unsecured"
+#~ msgstr "Эта сеть небезопасна"
+
+#~ msgid "Network"
+#~ msgstr "Сеть"
+
+#~ msgid "Network indicator"
+#~ msgstr "Индикатор сети"
+
+#~ msgid "There are no wireless access points within range."
+#~ msgstr "В пределах диапазона нет точек доступа."
+
+#~ msgid "Wireless Is Disabled"
+#~ msgstr "Беспроводная связь отключена"
+
+#~ msgid "Enable wireless to discover nearby wireless access points."
+#~ msgstr "Позволить Wi-Fi обнаружить точки доступа."
+
+#~ msgid "No VPN Available"
+#~ msgstr "Нет доступных подключений VPN"
+
+#~ msgid "Hotspot"
+#~ msgstr "Точка доступа"
+
+#~ msgid "Hotspot %s"
+#~ msgstr "Точка доступа %s"
+
+#~ msgid "Failed"
+#~ msgstr "Не удалось"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Кабель не подключён"
+
+#~ msgid "Airplane mode enabled"
+#~ msgstr "Режим полёта включён"
+
+#~ msgid "Unknown"
+#~ msgstr "Неизвестно"

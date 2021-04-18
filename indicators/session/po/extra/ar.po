@@ -1,0 +1,46 @@
+# Arabic translations for extra package.
+# Copyright (C) 2019 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-01 18:49+0000\n"
+"PO-Revision-Date: 2019-11-07 12:43-0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/session.appdata.xml.in:6
+msgid "Session Indicator"
+msgstr ""
+
+#: data/session.appdata.xml.in:7
+msgid "Switch users, lock, log out, suspend, or shut down"
+msgstr ""
+
+#: data/session.appdata.xml.in:11 data/session.appdata.xml.in:20
+msgid "Minor updates:"
+msgstr ""
+
+#: data/session.appdata.xml.in:13
+msgid "Performance improvements"
+msgstr ""
+
+#: data/session.appdata.xml.in:14 data/session.appdata.xml.in:23
+#: data/session.appdata.xml.in:29
+msgid "Updated translations"
+msgstr ""
+
+#: data/session.appdata.xml.in:22
+msgid "Updated styling for keyboard shortcuts"
+msgstr ""
+
+#: data/session.appdata.xml.in:38
+msgid "elementary, Inc."
+msgstr ""

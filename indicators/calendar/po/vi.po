@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2017-12-28 00:18+0000\n"
+"Last-Translator: Hải Hồ <hochihai1997@gmail.com>\n"
+"Language-Team: Vietnamese <https://weblate.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-datetime/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-02-19 05:58+0000\n"
+
+#: src/Indicator.vala:56
+msgid "No Events on This Day"
+msgstr ""
+
+#: src/Indicator.vala:80
+msgid "Date & Time Settings…"
+msgstr "Cài đặt Ngày & Giờ…"
+
+#: src/Indicator.vala:128
+msgid "During the Day"
+msgstr ""
+
+#: src/Indicator.vala:136
+msgid "All Day"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:33
+#: src/Widgets/calendar/CalendarView.vala:85
+msgid "%OB, %Y"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:48
+msgid "Go to today's date"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:145
+msgid "Unable To Launch Calendar"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:146
+msgid "The program \"io.elementary.calendar\" may not be installed"
+msgstr ""
+
+#~ msgid "Date & Time"
+#~ msgstr "Ngày & Giờ"
+
+#~ msgid "The date and time indicator"
+#~ msgstr "Chỉ thị ngày và giờ"

@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2021-02-14 05:24+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
+"wingpanel/wingpanel-indicator-datetime/nb/>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2017-02-19 05:57+0000\n"
+
+#: src/Indicator.vala:56
+msgid "No Events on This Day"
+msgstr "Ingen begivenheter denne dagen"
+
+#: src/Indicator.vala:80
+msgid "Date & Time Settings…"
+msgstr "Innstillinger for dato og tid …"
+
+#: src/Indicator.vala:128
+msgid "During the Day"
+msgstr "I løpet av dagen"
+
+#: src/Indicator.vala:136
+msgid "All Day"
+msgstr "Hele dagen"
+
+#: src/Widgets/calendar/CalendarView.vala:33
+#: src/Widgets/calendar/CalendarView.vala:85
+#, fuzzy
+msgid "%OB, %Y"
+msgstr "%OB, %Y"
+
+#: src/Widgets/calendar/CalendarView.vala:48
+msgid "Go to today's date"
+msgstr "Gå til dags dato"
+
+#: src/Widgets/calendar/CalendarView.vala:145
+msgid "Unable To Launch Calendar"
+msgstr "Kunne ikke kjøre kalender"
+
+#: src/Widgets/calendar/CalendarView.vala:146
+msgid "The program \"io.elementary.calendar\" may not be installed"
+msgstr "Programmet «io.elementary.calendar» er kanskje ikke installert"
+
+#~ msgid "Date & Time"
+#~ msgstr "Dato & tid"
+
+#~ msgid "The date and time indicator"
+#~ msgstr "Dato og tid indikator"
+
+#~ msgid "%OB %Y"
+#~ msgstr "%OB %Y"
+
+#~ msgid "%a, %b %e"
+#~ msgstr "%a, %e %b"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H:%M"

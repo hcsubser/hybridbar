@@ -1,0 +1,41 @@
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2020-03-26 22:09+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://l10n.elementary.io/projects/wingpanel/wingpanel-indicator-sound/he/>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "הגדרות צליל…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "לא מנגן כרגע"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "נגן מוזיקה"
+
+#: src/Widgets/MprisGui.vala:531
+msgid "Unknown Artist"
+msgstr "אמן לא ידוע"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "מחוון צליל"
+
+#~ msgid "The sound indicator"
+#~ msgstr "מחוון הצליל"
+
+#~ msgid "by "
+#~ msgstr "על ידי "

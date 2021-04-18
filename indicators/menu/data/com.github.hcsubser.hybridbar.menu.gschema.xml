@@ -1,0 +1,9 @@
+<schemalist>
+	<schema path="/com/github/hcsubser/hybridbar/menu/" id="com.github.hcsubser.hybridbar.menu">
+        <key name="use-category" type="b">
+            <default>false</default>
+            <summary>Show the category view by default</summary>
+            <description>Save the current view of the launcher.</description>
+        </key>
+	</schema>
+</schemalist>

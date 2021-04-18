@@ -1,0 +1,92 @@
+# Moldavian translations for session-indicator package.
+# Copyright (C) 2018 THE session-indicator'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the session-indicator package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: session-indicator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2018-05-31 08:17+0000\n"
+"Last-Translator: Romanic Ion Nicușor <contact.romanic@gmail.com>\n"
+"Language-Team: Moldovan <https://weblate.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/mo/>\n"
+"Language: mo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr "Setările conturilor de utilizator …"
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Deconectare…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Blocare"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "Închide…"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Suspenda"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Sunteți sigur că doriți să vă deconectați?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Această acțiune va închide toate aplicațiile deschise."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Deconectați-vă"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Sigur vrei să închizi?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr ""
+"Această acțiune va închide toate aplicațiile deschise și va opri acest "
+"dispozitiv."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Închide"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "Anulare"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Repornire"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Invitat"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "Conectat"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "Dezconectat"
+
+#~ msgid "Session"
+#~ msgstr "Sesiune"
+
+#~ msgid "The session indicator"
+#~ msgstr "Indicatorul sesiunii"

@@ -1,0 +1,45 @@
+/*
+* Copyright 2019 elementary, Inc. (https://elementary.io)
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public
+* License as published by the Free Software Foundation; either
+* version 2 of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* General Public License for more details.
+*
+* You should have received a copy of the GNU General Public
+* License along with this program; if not, write to the
+* Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA 02110-1301 USA.
+*/
+
+.mic-icon {
+    animation: none;
+    min-width: 24px;
+    opacity: 1;
+    transition: none;
+    -gtk-icon-source: -gtk-icontheme("audio-input-microphone-symbolic");
+}
+
+.mic-icon.disabled {
+    animation: microphone-disabled 160ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-symbolic");
+}
+
+@keyframes microphone-disabled {
+    0% { -gtk-icon-source: -gtk-icontheme("audio-input-microphone-symbolic"); }
+    10% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-10-symbolic"); opacity: 0.94; }
+    20% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-20-symbolic"); opacity: 0.88; }
+    30% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-30-symbolic"); opacity: 0.82; }
+    40% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-40-symbolic"); opacity: 0.76; }
+    50% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-50-symbolic"); opacity: 0.70; }
+    60% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-60-symbolic"); opacity: 0.64; }
+    70% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-70-symbolic"); opacity: 0.58; }
+    80% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-80-symbolic"); opacity: 0.52; }
+    90% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-90-symbolic"); opacity: 0.46; }
+    100% { -gtk-icon-source: -gtk-icontheme("microphone-sensitivity-muted-symbolic"); }
+}

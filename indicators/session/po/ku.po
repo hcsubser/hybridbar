@@ -1,0 +1,91 @@
+# Kurdish translation for wingpanel-indicator-session
+# Copyright (c) 2017 Rosetta Contributors and Canonical Ltd 2017
+# This file is distributed under the same license as the wingpanel-indicator-session package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingpanel-indicator-session\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2018-02-11 00:11+0000\n"
+"Last-Translator: Rokar <mail@rokar.de>\n"
+"Language-Team: Kurdish <https://weblate.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/ku/>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-02-19 05:58+0000\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr ""
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Derketin…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Qufl Bike"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "Vemirandin …"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Rawestîne"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Te rastî dixwaze tu jê derkeve?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Ev daxwaz gisti bername vekiri jê begirtin."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Derkeve"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Te rastî dixwaze tu jê begire?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr ""
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Dadan"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "Betal bike"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Nûdestpêbike"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Mêvan"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "têketin"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "derkeve"
+
+#~ msgid "Session"
+#~ msgstr "Rûniştin"
+
+#~ msgid "The session indicator"
+#~ msgstr "nîşane kombûn"

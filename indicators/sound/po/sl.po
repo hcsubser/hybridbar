@@ -1,0 +1,41 @@
+# Jernej Virag <jernej@virag.si>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2020-01-08 00:07+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://l10n.elementary.io/projects/wingpanel/wingpanel-indicator-sound/sl/>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Nastavitve zvoka…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Trenutno ni predvajanja"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Predvajalnik glasbe"
+
+#: src/Widgets/MprisGui.vala:531
+msgid "Unknown Artist"
+msgstr "Neznan izvajalec"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Indikator zvoka"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Indikator zvoka"
+
+#~ msgid "by "
+#~ msgstr "od "

@@ -1,0 +1,14 @@
+.event {
+    background: @selected_bg_color;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.event label,
+.event image {
+    color: @selected_fg_color;
+}
+
+.event .title {
+    font-weight: 600;
+}

@@ -1,0 +1,42 @@
+# Jesse ALTER <jesse@jessealter.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2018-10-28 19:11+0000\n"
+"Last-Translator: Jesse ALTER <jesse@jessealter.com>\n"
+"Language-Team: Esperanto <https://weblate.elementary.io/projects/wingpanel/wingpanel-indicator-sound/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Agordoj de sono…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Aktuale neludanta"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Muzikludilo"
+
+#: src/Widgets/MprisGui.vala:531
+#, fuzzy
+msgid "Unknown Artist"
+msgstr "Nekonata titolo"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Sonindikilo"
+
+#~ msgid "The sound indicator"
+#~ msgstr "La sonindikilo"
+
+#~ msgid "by "
+#~ msgstr "de "

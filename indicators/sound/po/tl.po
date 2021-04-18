@@ -1,0 +1,45 @@
+# Tagalog translation for wingpanel-indicator-sound
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the wingpanel-indicator-sound package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingpanel-indicator-sound\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2016-05-24 20:21+0000\n"
+"Last-Translator: yavinfour <anjelo.passionist@gmail.com>\n"
+"Language-Team: Tagalog <tl@li.org>\n"
+"Language: tl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+"X-Generator: Launchpad (build 18335)\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Setting ng Tunog..."
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Hindi nagpapatugtog"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Tagapatugtog ng Musika"
+
+#: src/Widgets/MprisGui.vala:531
+#, fuzzy
+msgid "Unknown Artist"
+msgstr "Hindi Kilalang Pamagat"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Indicator Sound"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Ang sound indicator"
+
+#~ msgid "by "
+#~ msgstr "ni "

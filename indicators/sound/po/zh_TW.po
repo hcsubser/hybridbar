@@ -1,0 +1,46 @@
+# Chinese (Traditional) translation for wingpanel-indicator-sound
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the wingpanel-indicator-sound package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingpanel-indicator-sound\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2018-02-09 00:12+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.elementary.io/projects/wingpanel/wingpanel-indicator-sound/zh_TW/>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "音效設定值…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "目前沒有音效在播放"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "音樂播放器"
+
+#: src/Widgets/MprisGui.vala:531
+#, fuzzy
+msgid "Unknown Artist"
+msgstr "未知曲名"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "指示器音效"
+
+#~ msgid "The sound indicator"
+#~ msgstr "音效指示器"
+
+#~ msgid "by "
+#~ msgstr "來自 "

@@ -1,0 +1,41 @@
+# Rantyrant <diseasemonger@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2020-05-26 11:11+0000\n"
+"Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/wingpanel/wingpanel-indicator-sound/da/>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Lydindstillinger…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Afspiller ikke"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Musikafspiller"
+
+#: src/Widgets/MprisGui.vala:531
+msgid "Unknown Artist"
+msgstr "Ukendt Kunstner"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Lydindikator"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Lydindikatoren"
+
+#~ msgid "by "
+#~ msgstr "af "

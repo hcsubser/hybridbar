@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2017-04-27 14:26+0000\n"
+"Last-Translator: marius.a <marius.albina@gmail.com>\n"
+"Language-Team: Romanian <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 2.13-dev\n"
+"X-Launchpad-Export-Date: 2017-02-09 06:03+0000\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr ""
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Deconectare…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Blocare"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "Închidere…"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Suspendare"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Ești sigur că vrei să te deconectezi?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Această acţiune va închide toate aplicaţiile deschise."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Deconectare"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Ești sigur că vrei să oprești?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr ""
+"Această acţiune va închide toate aplicaţiile deschise şi va închide acest "
+"dispozitiv."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Oprire"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "Anulare"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Repornire"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Oaspete"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "Autentificat"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "Deconectat"
+
+#~ msgid "Session"
+#~ msgstr "Sesiune"
+
+#~ msgid "The session indicator"
+#~ msgstr "Indicator sesiune"

@@ -1,0 +1,12 @@
+src/Indicator.vala
+src/Utils.vala
+src/common/rfkill.vala
+src/common/Widgets/VpnMenuItem.vala
+src/common/Widgets/WidgetNMInterface.vala
+src/common/Widgets/WifiMenuItem.vala
+src/Widgets/DisplayWidget.vala
+src/Widgets/EtherInterface.vala
+src/Widgets/ModemInterface.vala
+src/Widgets/VpnInterface.vala
+src/Widgets/WifiInterface.vala
+src/Widgets/PopoverWidget.vala

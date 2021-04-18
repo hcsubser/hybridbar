@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2021-02-25 03:15+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
+"Language-Team: German <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-datetime/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2017-02-19 05:57+0000\n"
+
+#: src/Indicator.vala:56
+msgid "No Events on This Day"
+msgstr "Keine Termine an diesem Tag"
+
+#: src/Indicator.vala:80
+msgid "Date & Time Settings…"
+msgstr "Datums- & Zeiteinstellungen …"
+
+#: src/Indicator.vala:128
+msgid "During the Day"
+msgstr "Im Laufe des Tages"
+
+#: src/Indicator.vala:136
+msgid "All Day"
+msgstr "Ganztägig"
+
+#: src/Widgets/calendar/CalendarView.vala:33
+#: src/Widgets/calendar/CalendarView.vala:85
+msgid "%OB, %Y"
+msgstr "%OB %Y"
+
+#: src/Widgets/calendar/CalendarView.vala:48
+msgid "Go to today's date"
+msgstr "Zum heutigen Datum wechseln"
+
+#: src/Widgets/calendar/CalendarView.vala:145
+msgid "Unable To Launch Calendar"
+msgstr "Starten des Kalenders nicht möglich"
+
+#: src/Widgets/calendar/CalendarView.vala:146
+msgid "The program \"io.elementary.calendar\" may not be installed"
+msgstr ""
+"Das Programm »io.elementary.calendar« ist möglicherweise nicht installiert"
+
+#~ msgid "Date & Time"
+#~ msgstr "Datum & Uhrzeit"
+
+#~ msgid "The date and time indicator"
+#~ msgstr "Der Datums- und Zeitindikator"
+
+#~ msgid "%OB %Y"
+#~ msgstr "%OB %Y"
+
+#~ msgid "%a, %b %e"
+#~ msgstr "%a, %d. %b"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%I:%M %P"

@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2018-03-20 00:14+0000\n"
+"Last-Translator: Anand Kumar <anand@anandkumar.net>\n"
+"Language-Team: Hindi <https://weblate.elementary.io/projects/wingpanel/wingpanel-indicator-sound/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "ध्वनि सेटिंग्स…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "अभी प्ले नहीं कर रहा है"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "म्यूजिक प्लेयर"
+
+#: src/Widgets/MprisGui.vala:531
+#, fuzzy
+msgid "Unknown Artist"
+msgstr "अज्ञात शीर्षक"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "संकेतक ध्वनि"
+
+#~ msgid "The sound indicator"
+#~ msgstr "ध्वनि संकेतक"
+
+#~ msgid "by "
+#~ msgstr "द्वारा "

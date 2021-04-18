@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2016-01-09 09:57+0000\n"
+"Last-Translator: Lukáš Papík <stereo839@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+"X-Generator: Launchpad (build 18335)\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Nastavenia zvuku…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Momentálne nehrá"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Prehrávač hudby"
+
+#: src/Widgets/MprisGui.vala:531
+#, fuzzy
+msgid "Unknown Artist"
+msgstr "Neznámy názov"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Indikátor zvuku"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Indikátor zvuku"
+
+#~ msgid "by "
+#~ msgstr "od "

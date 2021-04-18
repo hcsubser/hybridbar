@@ -1,0 +1,35 @@
+# Filipino translation for wingpanel-indicator-sound
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the wingpanel-indicator-sound package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wingpanel-indicator-sound\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2015-11-08 13:29+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Filipino <fil@li.org>\n"
+"Language: fil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+"X-Generator: Launchpad (build 18335)\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr ""
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr ""
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr ""
+
+#: src/Widgets/MprisGui.vala:531
+msgid "Unknown Artist"
+msgstr ""

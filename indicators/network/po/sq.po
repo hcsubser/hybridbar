@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 22:19+0000\n"
+"PO-Revision-Date: 2015-11-03 19:49+0000\n"
+"Last-Translator: Indrit Bashkimi <indrit.bashkimi@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-11-29 05:01+0000\n"
+"X-Generator: Launchpad (build 18282)\n"
+
+#: src/Indicator.vala:104 src/Indicator.vala:117
+#: src/Widgets/EtherInterface.vala:60
+msgid "Wired"
+msgstr ""
+
+#: src/Indicator.vala:105
+msgid "Connecting to wired network"
+msgstr ""
+
+#: src/Indicator.vala:107 src/Indicator.vala:112
+#, c-format
+msgid "Connecting to “%s”"
+msgstr ""
+
+#: src/Indicator.vala:118
+msgid "Connected to wired network"
+msgstr ""
+
+#: src/Indicator.vala:120 src/Indicator.vala:132
+#, c-format
+msgid "Connected to “%s”"
+msgstr ""
+
+#: src/Indicator.vala:138
+msgid "Failed to connect"
+msgstr ""
+
+#: src/Indicator.vala:142
+msgid "Disconnected"
+msgstr ""
+
+#: src/Indicator.vala:145
+msgid "Not connected"
+msgstr ""
+
+#: src/Indicator.vala:159 src/Indicator.vala:171
+msgid "unknown network"
+msgstr ""
+
+#: src/common/Widgets/VpnMenuItem.vala:62
+msgid "This Virtual Private Network could not be connected to."
+msgstr ""
+
+#: src/common/Widgets/WidgetNMInterface.vala:22
+msgid "Unknown device"
+msgstr ""
+
+#: src/common/Widgets/WidgetNMInterface.vala:34
+#, c-format
+msgid "Unknown type: %s "
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:70
+msgid "Unable to connect"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:142
+#, fuzzy
+msgid "40/64-bit WEP encrypted"
+msgstr "Ky rrjet përdor shifrim WEP 40/64-bit."
+
+#: src/common/Widgets/WifiMenuItem.vala:145
+#, fuzzy
+msgid "104/128-bit WEP encrypted"
+msgstr "Ky rrjet përdor shifrim WEP 104/128-bit."
+
+#: src/common/Widgets/WifiMenuItem.vala:148
+msgid "WPA encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:151
+msgid "Encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:153
+msgid "Unsecured"
+msgstr ""
+
+#: src/Widgets/EtherInterface.vala:57
+#, c-format
+msgid "Virtual network: %s"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:83
+#, c-format
+msgid "Mobile Broadband: %s"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:85
+msgid "Mobile Broadband"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:91
+msgid "Modem"
+msgstr ""
+
+#: src/Widgets/VpnInterface.vala:41 src/Widgets/VpnInterface.vala:89
+msgid "VPN"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:87
+msgid "No Access Points Available"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:89
+msgid "Scanning for Access Points…"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:137
+msgid "Wireless"
+msgstr ""
+
+#: src/Widgets/PopoverWidget.vala:56
+msgid "Connect to Hidden Network…"
+msgstr ""
+
+#: src/Widgets/PopoverWidget.vala:60
+msgid "Network Settings…"
+msgstr ""
+
+#, fuzzy
+#~ msgid "This network uses WPA encryption"
+#~ msgstr "Ky rrjet përdor shifrim WPA."
+
+#, fuzzy
+#~ msgid "This network uses encryption"
+#~ msgstr "Ky rrjet përdor shifrim."
+
+#, fuzzy
+#~ msgid "This network is unsecured"
+#~ msgstr "Ky rrjet përdor shifrim."
+
+#~ msgid "Network"
+#~ msgstr "Rrjeti"

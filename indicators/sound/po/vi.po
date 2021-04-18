@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2017-12-27 15:45+0000\n"
+"Last-Translator: Hải Hồ <hochihai1997@gmail.com>\n"
+"Language-Team: Vietnamese <https://weblate.elementary.io/projects/wingpanel/wingpanel-indicator-sound/vi/>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.18\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Cài đặt âm thanh…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Hiện chưa phát"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Trình nghe nhạc"
+
+#: src/Widgets/MprisGui.vala:531
+#, fuzzy
+msgid "Unknown Artist"
+msgstr "Tiêu đề không xác định"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Chỉ thị Âm thanh"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Chỉ thị âm thanh"
+
+#~ msgid "by "
+#~ msgstr "bởi "

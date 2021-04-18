@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/github/hcsubser/hybridbar/sound/" id="com.github.hcsubser.hybridbar.sound">
+        <key type="d" name="max-volume">
+            <default>100</default>
+            <range min="1" max="160"/>
+            <summary>Define the maximum volume in %.</summary>
+            <description>With this value you can customize the volume range. So if e.g. your speaker reach their max. tolerated volume at 20%, you can set the max volume to 20% and the sound indicator will adapt to this.</description>
+        </key>
+        <key type="as" name="last-title-info">
+            <default>[]</default>
+            <summary>Last played title of the default media player.</summary>
+        </key>
+    </schema>
+</schemalist>

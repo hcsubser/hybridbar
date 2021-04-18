@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2019-09-07 10:22+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
+"Language-Team: Marathi <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-datetime/mr/>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.7.1\n"
+"X-Launchpad-Export-Date: 2017-02-19 05:57+0000\n"
+
+#: src/Indicator.vala:56
+msgid "No Events on This Day"
+msgstr "या दिवशी कोणतेही कार्यक्रम नाहीत"
+
+#: src/Indicator.vala:80
+msgid "Date & Time Settings…"
+msgstr "तारीख आणि वेळ सेटिंग्ज…"
+
+#: src/Indicator.vala:128
+msgid "During the Day"
+msgstr "दिवसा"
+
+#: src/Indicator.vala:136
+msgid "All Day"
+msgstr "संपूर्ण दिवस"
+
+#: src/Widgets/calendar/CalendarView.vala:33
+#: src/Widgets/calendar/CalendarView.vala:85
+msgid "%OB, %Y"
+msgstr "%OB, %Y"
+
+#: src/Widgets/calendar/CalendarView.vala:48
+msgid "Go to today's date"
+msgstr "आजच्या तारखेला जा"
+
+#: src/Widgets/calendar/CalendarView.vala:145
+msgid "Unable To Launch Calendar"
+msgstr "कॅलेंडर लाँच करण्यात अक्षम"
+
+#: src/Widgets/calendar/CalendarView.vala:146
+msgid "The program \"io.elementary.calendar\" may not be installed"
+msgstr "कदाचित प्रोग्राम \"io.elementary.cender\" स्थापित केलेला नसावा"
+
+#~ msgid "Date & Time"
+#~ msgstr "तारीख आणि वेळ"
+
+#~ msgid "The date and time indicator"
+#~ msgstr "तारीख आणि वेळ सूचक"
+
+#~ msgid "%OB %Y"
+#~ msgstr "%OB %Y"

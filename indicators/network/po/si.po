@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 22:19+0000\n"
+"PO-Revision-Date: 2021-03-05 00:17+0000\n"
+"Last-Translator: HelaBasa <R45XvezA@pm.me>\n"
+"Language-Team: Sinhala <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-network/si/>\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
+"X-Launchpad-Export-Date: 2016-11-29 05:01+0000\n"
+
+#: src/Indicator.vala:104 src/Indicator.vala:117
+#: src/Widgets/EtherInterface.vala:60
+msgid "Wired"
+msgstr "රැහැන් සහිත"
+
+#: src/Indicator.vala:105
+#, fuzzy
+#| msgid "Connect to Hidden Network…"
+msgid "Connecting to wired network"
+msgstr "සැඟවුණු ජාලයකට සම්බන්ධ වන්න..."
+
+#: src/Indicator.vala:107 src/Indicator.vala:112
+#, fuzzy, c-format
+#| msgid "Connecting"
+msgid "Connecting to “%s”"
+msgstr "සම්බන්ධ වෙමින්"
+
+#: src/Indicator.vala:118
+#, fuzzy
+#| msgid "Connect to Hidden Network…"
+msgid "Connected to wired network"
+msgstr "සැඟවුණු ජාලයකට සම්බන්ධ වන්න..."
+
+#: src/Indicator.vala:120 src/Indicator.vala:132
+#, fuzzy, c-format
+#| msgid "Connected"
+msgid "Connected to “%s”"
+msgstr "සම්බන්ධ විය"
+
+#: src/Indicator.vala:138
+msgid "Failed to connect"
+msgstr ""
+
+#: src/Indicator.vala:142
+msgid "Disconnected"
+msgstr "විසන්ධි විය"
+
+#: src/Indicator.vala:145
+#, fuzzy
+#| msgid "Connected"
+msgid "Not connected"
+msgstr "සම්බන්ධ විය"
+
+#: src/Indicator.vala:159 src/Indicator.vala:171
+msgid "unknown network"
+msgstr ""
+
+#: src/common/Widgets/VpnMenuItem.vala:62
+msgid "This Virtual Private Network could not be connected to."
+msgstr ""
+
+#: src/common/Widgets/WidgetNMInterface.vala:22
+msgid "Unknown device"
+msgstr "නොදන්නා උපාංගයක්"
+
+#: src/common/Widgets/WidgetNMInterface.vala:34
+#, c-format
+msgid "Unknown type: %s "
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:70
+msgid "Unable to connect"
+msgstr "සම්බන්ධ වීමට නොහැකිය"
+
+#: src/common/Widgets/WifiMenuItem.vala:142
+msgid "40/64-bit WEP encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:145
+msgid "104/128-bit WEP encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:148
+msgid "WPA encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:151
+msgid "Encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:153
+msgid "Unsecured"
+msgstr ""
+
+#: src/Widgets/EtherInterface.vala:57
+#, c-format
+msgid "Virtual network: %s"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:83
+#, c-format
+msgid "Mobile Broadband: %s"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:85
+msgid "Mobile Broadband"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:91
+msgid "Modem"
+msgstr ""
+
+#: src/Widgets/VpnInterface.vala:41 src/Widgets/VpnInterface.vala:89
+msgid "VPN"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:87
+msgid "No Access Points Available"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:89
+msgid "Scanning for Access Points…"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:137
+msgid "Wireless"
+msgstr "‍රැහැන් රහිත"
+
+#: src/Widgets/PopoverWidget.vala:56
+msgid "Connect to Hidden Network…"
+msgstr "සැඟවුණු ජාලයකට සම්බන්ධ වන්න..."
+
+#: src/Widgets/PopoverWidget.vala:60
+msgid "Network Settings…"
+msgstr "ජාල සැකසුම්..."
+
+#~ msgid "Network"
+#~ msgstr "ජාලය"
+
+#~ msgid "Network indicator"
+#~ msgstr "ජාල දර්ශකය"
+
+#~ msgid "Failed"
+#~ msgstr "අසාර්ථකයි"

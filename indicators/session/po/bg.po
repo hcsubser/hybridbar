@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2016-08-06 16:19+0000\n"
+"Last-Translator: Stanislav <stunito0o0o0@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-02-09 06:03+0000\n"
+"X-Generator: Launchpad (build 18326)\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr ""
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Излизане..."
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Заключване"
+
+#: src/Indicator.vala:102
+#, fuzzy
+msgid "Shut Down…"
+msgstr "Изключване..."
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Заспиване"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Сигурни ли сте , че искате да  излезете?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Това действие ще затвори всички отворени приложения."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Излизане"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Сигурни ли сте, че искате да изключите компютъра?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr ""
+"Това действие ще затвори всички отворени приложения и ще изключи компютъра."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Изключване"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "Отказ"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Рестартиране"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Гост"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "Вписан"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "Не е вписан"
+
+#~ msgid "Session"
+#~ msgstr "Сесия"
+
+#~ msgid "The session indicator"
+#~ msgstr "Индикатор на сесията"

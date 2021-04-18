@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2017-04-27 14:25+0000\n"
+"Last-Translator: marius.a <marius.albina@gmail.com>\n"
+"Language-Team: Romanian <https://l10n.elementary.io/projects/wingpanel/wingpanel-indicator-sound/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"X-Generator: Weblate 2.13-dev\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Configurări sunet…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Momentan nu rulează"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Player muzică"
+
+#: src/Widgets/MprisGui.vala:531
+#, fuzzy
+msgid "Unknown Artist"
+msgstr "Titlu necunoscut"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Indicatorul sunetului"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Indicatorul de sunet"
+
+#~ msgid "by "
+#~ msgstr "de "

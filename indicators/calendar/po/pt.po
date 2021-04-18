@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2019-08-29 17:23+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-datetime/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7.1\n"
+"X-Launchpad-Export-Date: 2017-02-19 05:57+0000\n"
+
+#: src/Indicator.vala:56
+msgid "No Events on This Day"
+msgstr "Nenhum evento neste dia"
+
+#: src/Indicator.vala:80
+msgid "Date & Time Settings…"
+msgstr "Definições de Data e Hora…"
+
+#: src/Indicator.vala:128
+msgid "During the Day"
+msgstr "Durante o dia"
+
+#: src/Indicator.vala:136
+msgid "All Day"
+msgstr "Todo o dia"
+
+#: src/Widgets/calendar/CalendarView.vala:33
+#: src/Widgets/calendar/CalendarView.vala:85
+msgid "%OB, %Y"
+msgstr "%OB, %Y"
+
+#: src/Widgets/calendar/CalendarView.vala:48
+msgid "Go to today's date"
+msgstr "Ir para a data de hoje"
+
+#: src/Widgets/calendar/CalendarView.vala:145
+msgid "Unable To Launch Calendar"
+msgstr "Não é possível lançar o calendário"
+
+#: src/Widgets/calendar/CalendarView.vala:146
+msgid "The program \"io.elementary.calendar\" may not be installed"
+msgstr "O programa \"io.elementary.calendar\" pode não estar instalado"
+
+#~ msgid "Date & Time"
+#~ msgstr "Data e Hora"
+
+#~ msgid "The date and time indicator"
+#~ msgstr "O indicador de data e hora"
+
+#~ msgid "%OB %Y"
+#~ msgstr "%OB %Y"
+
+#~ msgid "%a, %b %e"
+#~ msgstr "%a, %e de %b"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%k:%M"

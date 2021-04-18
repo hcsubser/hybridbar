@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2020-05-11 18:10+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese <https://l10n.elementary.io/projects/wingpanel/"
+"wingpanel-indicator-session/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-02-09 06:03+0000\n"
+
+#: src/Indicator.vala:86
+msgid "User Accounts Settings…"
+msgstr "Definições de contas de utilizador…"
+
+#: src/Indicator.vala:88
+msgid "Log Out…"
+msgstr "Terminar sessão…"
+
+#: src/Indicator.vala:94
+msgid "Lock"
+msgstr "Bloquear"
+
+#: src/Indicator.vala:102
+msgid "Shut Down…"
+msgstr "Encerrar…"
+
+#: src/Indicator.vala:105
+msgid "Suspend"
+msgstr "Suspender"
+
+#: src/Widgets/EndSessionDialog.vala:49
+msgid "Are you sure you want to Log Out?"
+msgstr "Tem a certeza que pretende terminar sessão?"
+
+#: src/Widgets/EndSessionDialog.vala:50
+msgid "This will close all open applications."
+msgstr "Todas as aplicações serão fechadas."
+
+#: src/Widgets/EndSessionDialog.vala:51
+msgid "Log Out"
+msgstr "Terminar sessão"
+
+#: src/Widgets/EndSessionDialog.vala:56
+msgid "Are you sure you want to Shut Down?"
+msgstr "Tem a certeza que deseja encerrar?"
+
+#: src/Widgets/EndSessionDialog.vala:57
+msgid "This will close all open applications and turn off this device."
+msgstr "Todas as aplicações serão fechadas e o dispositivo será encerrado."
+
+#: src/Widgets/EndSessionDialog.vala:58
+msgid "Shut Down"
+msgstr "Encerrar"
+
+#: src/Widgets/EndSessionDialog.vala:80
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/Widgets/EndSessionDialog.vala:96
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: src/Widgets/UserBox.vala:41
+msgid "Guest"
+msgstr "Convidado"
+
+#: src/Widgets/UserBox.vala:113
+msgid "Logged in"
+msgstr "Com Sessão ativa"
+
+#: src/Widgets/UserBox.vala:115
+msgid "Logged out"
+msgstr "Sessão terminada"
+
+#~ msgid "Session"
+#~ msgstr "Sessão"
+
+#~ msgid "The session indicator"
+#~ msgstr "O indicador de sessão"

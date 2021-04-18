@@ -1,0 +1,46 @@
+# Turkish translation for wingpanel-indicator-sound
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the wingpanel-indicator-sound package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+# Sinan Decron <intenfinitia@gmail.com>, 2018.
+# Ozgur Baskin <bebeto_baskin@yahoo.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: wingpanel-indicator-sound\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:48+0000\n"
+"PO-Revision-Date: 2019-12-17 19:17+0000\n"
+"Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/wingpanel/wingpanel-indicator-sound/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:45+0000\n"
+
+#: src/Indicator.vala:346
+msgid "Sound Settings…"
+msgstr "Ses Ayarları…"
+
+#: src/Widgets/MprisGui.vala:28
+msgid "Not currently playing"
+msgstr "Şu anda çalınmıyor"
+
+#: src/Widgets/MprisGui.vala:43
+msgid "Music player"
+msgstr "Müzik çalar"
+
+#: src/Widgets/MprisGui.vala:531
+msgid "Unknown Artist"
+msgstr "Bilinmeyen Sanatçı"
+
+#~ msgid "Indicator Sound"
+#~ msgstr "Ses Göstergesi"
+
+#~ msgid "The sound indicator"
+#~ msgstr "Ses göstergesi"
+
+#~ msgid "by "
+#~ msgstr "üretici "

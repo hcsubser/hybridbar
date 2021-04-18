@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com/github/hcsubser/hybridbar">
+    <file alias="application.css" compressed="true">styles/application.css</file>
+    <file alias="panel.css" compressed="true">styles/panel.css</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 15:49+0000\n"
+"PO-Revision-Date: 2016-12-14 13:39+0000\n"
+"Last-Translator: Timothy <timothy.wong@rocketmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-02-19 05:57+0000\n"
+"X-Generator: Launchpad (build 18326)\n"
+
+#: src/Indicator.vala:56
+msgid "No Events on This Day"
+msgstr ""
+
+#: src/Indicator.vala:80
+msgid "Date & Time Settings…"
+msgstr "Tetapan Tarikh & Masa..."
+
+#: src/Indicator.vala:128
+msgid "During the Day"
+msgstr ""
+
+#: src/Indicator.vala:136
+msgid "All Day"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:33
+#: src/Widgets/calendar/CalendarView.vala:85
+msgid "%OB, %Y"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:48
+msgid "Go to today's date"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:145
+msgid "Unable To Launch Calendar"
+msgstr ""
+
+#: src/Widgets/calendar/CalendarView.vala:146
+msgid "The program \"io.elementary.calendar\" may not be installed"
+msgstr ""
+
+#~ msgid "Date & Time"
+#~ msgstr "Tarikh & Masa"
+
+#~ msgid "The date and time indicator"
+#~ msgstr "Penunjuk tarikh dan masa"
+
+#, fuzzy
+#~ msgid "%OB %Y"
+#~ msgstr "%B %e, %Y"
+
+#~ msgid "%a, %b %e"
+#~ msgstr "%a %b %e"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"

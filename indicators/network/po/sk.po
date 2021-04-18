@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-22 22:19+0000\n"
+"PO-Revision-Date: 2016-07-05 18:32+0000\n"
+"Last-Translator: Ľubomír Hlavko <5lubo555@azet.sk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2016-11-29 05:01+0000\n"
+"X-Generator: Launchpad (build 18282)\n"
+
+#: src/Indicator.vala:104 src/Indicator.vala:117
+#: src/Widgets/EtherInterface.vala:60
+msgid "Wired"
+msgstr "Drôtové"
+
+#: src/Indicator.vala:105
+#, fuzzy
+#| msgid "Connect to Hidden Network…"
+msgid "Connecting to wired network"
+msgstr "Pripojiť sa k skrytej sieti..."
+
+#: src/Indicator.vala:107 src/Indicator.vala:112
+#, fuzzy, c-format
+#| msgid "Connecting"
+msgid "Connecting to “%s”"
+msgstr "Pripája sa"
+
+#: src/Indicator.vala:118
+#, fuzzy
+#| msgid "Connect to Hidden Network…"
+msgid "Connected to wired network"
+msgstr "Pripojiť sa k skrytej sieti..."
+
+#: src/Indicator.vala:120 src/Indicator.vala:132
+#, fuzzy, c-format
+#| msgid "Connected"
+msgid "Connected to “%s”"
+msgstr "Pripojený"
+
+#: src/Indicator.vala:138
+msgid "Failed to connect"
+msgstr ""
+
+#: src/Indicator.vala:142
+msgid "Disconnected"
+msgstr "Odpojené"
+
+#: src/Indicator.vala:145
+#, fuzzy
+#| msgid "Connected"
+msgid "Not connected"
+msgstr "Pripojený"
+
+#: src/Indicator.vala:159 src/Indicator.vala:171
+msgid "unknown network"
+msgstr ""
+
+#: src/common/Widgets/VpnMenuItem.vala:62
+#, fuzzy
+msgid "This Virtual Private Network could not be connected to."
+msgstr "K tejto bezdrôtovej sieti sa nejde pripojiť."
+
+#: src/common/Widgets/WidgetNMInterface.vala:22
+msgid "Unknown device"
+msgstr "Neznáme zariadenie"
+
+#: src/common/Widgets/WidgetNMInterface.vala:34
+#, c-format
+msgid "Unknown type: %s "
+msgstr "Neznámy typ: %s "
+
+#: src/common/Widgets/WifiMenuItem.vala:70
+msgid "Unable to connect"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:142
+#, fuzzy
+msgid "40/64-bit WEP encrypted"
+msgstr "Táto sieť používa šifrovanie WEP 40/64 bitov."
+
+#: src/common/Widgets/WifiMenuItem.vala:145
+#, fuzzy
+msgid "104/128-bit WEP encrypted"
+msgstr "Táto sieť používa šifrovanie WEP 104/128 bitov."
+
+#: src/common/Widgets/WifiMenuItem.vala:148
+msgid "WPA encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:151
+msgid "Encrypted"
+msgstr ""
+
+#: src/common/Widgets/WifiMenuItem.vala:153
+msgid "Unsecured"
+msgstr ""
+
+#: src/Widgets/EtherInterface.vala:57
+#, c-format
+msgid "Virtual network: %s"
+msgstr "Virtuálna sieť: %s"
+
+#: src/Widgets/ModemInterface.vala:83
+#, c-format
+msgid "Mobile Broadband: %s"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:85
+msgid "Mobile Broadband"
+msgstr ""
+
+#: src/Widgets/ModemInterface.vala:91
+msgid "Modem"
+msgstr ""
+
+#: src/Widgets/VpnInterface.vala:41 src/Widgets/VpnInterface.vala:89
+msgid "VPN"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:87
+msgid "No Access Points Available"
+msgstr "Žiadne dostupné prístupové body"
+
+#: src/Widgets/WifiInterface.vala:89
+msgid "Scanning for Access Points…"
+msgstr ""
+
+#: src/Widgets/WifiInterface.vala:137
+msgid "Wireless"
+msgstr ""
+
+#: src/Widgets/PopoverWidget.vala:56
+msgid "Connect to Hidden Network…"
+msgstr "Pripojiť sa k skrytej sieti..."
+
+#: src/Widgets/PopoverWidget.vala:60
+msgid "Network Settings…"
+msgstr "Nastavenia siete..."
+
+#~ msgid "This wireless network could not be connected to."
+#~ msgstr "K tejto bezdrôtovej sieti sa nejde pripojiť."
+
+#, fuzzy
+#~ msgid "This network uses WPA encryption"
+#~ msgstr "Táto sieť používa šifrovanie WPA."
+
+#, fuzzy
+#~ msgid "This network uses encryption"
+#~ msgstr "Táto sieť používa šifrovanie."
+
+#, fuzzy
+#~ msgid "This network is unsecured"
+#~ msgstr "Táto sieť používa šifrovanie."
+
+#~ msgid "Network"
+#~ msgstr "Sieť"
+
+#~ msgid "Network indicator"
+#~ msgstr "Indikátor siete"
+
+#~ msgid "There are no wireless access points within range."
+#~ msgstr "V dosahu nie sú k dispozícii žiadne bezdrôtové prístupové body."
+
+#~ msgid "Wireless Is Disabled"
+#~ msgstr "Bezdrôtové pripojenie je zakázané"
+
+#~ msgid "Enable wireless to discover nearby wireless access points."
+#~ msgstr ""
+#~ "Povoliť bezdrôtové pripojenie na objavenie okolitých bezdrôtových "
+#~ "prístupových bodov."
+
+#, fuzzy
+#~ msgid "No VPN Available"
+#~ msgstr "Žiadne dostupné prístupové body"
+
+#~ msgid "Failed"
+#~ msgstr "Zlyhalo"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Kábel odpojený"
+
+#~ msgid "Unknown"
+#~ msgstr "neznámy"
