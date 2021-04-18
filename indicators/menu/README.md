@@ -1,9 +1,6 @@
 # Applications Menu
-[![Translation status](https://l10n.elementary.io/widgets/wingpanel/-/applications-menu/svg-badge.svg)](https://l10n.elementary.io/engage/wingpanel/?utm_source=widget)
 
 Lightweight and stylish app launcher.
-
-![Screenshot](data/screenshot.png?raw=true)
 
 ## Building and Installation
 
@@ -15,7 +12,6 @@ You'll need the following dependencies:
 * libjson-glib-dev
 * libsoup2.4-dev
 * libhybridbar-dev
-* libzeitgeist-2.0-dev
 * meson
 * pkg-config
 * valac
@@ -29,3 +25,4 @@ Run `meson` to configure the build environment and then `ninja` to build
 To install, use `ninja install`
 
     sudo ninja install
+

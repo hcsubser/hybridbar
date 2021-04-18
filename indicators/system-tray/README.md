@@ -1,17 +1,14 @@
-# Wingpanel Ayatana-Compatibility Indicator (Community Version)
+# Hybridbar Ayatana-Compatibility Indicator (Community Version)
+Does not work on wayland currently,this readme is a mess will fix it some other time
+
 <h1>Description:</h1>
+
+
 Keep compatibility with ubuntu/unity indicators on Elementary OS wingpanel.
 If you want to install applications with indicators like weather forecast, redshift... this plug-in 
 let these indicators appear in your panel. 
 
-<p align="center"><img src="screenshot.png"/> </p>
 
-<h1>Easy Install (user only)</h1>
-1. Download the deb file (zip) and launch install<br/>
-
-<h2>Parameters for Pantheon (eos)</h2>
-2. You need to add Pantheon to the list of desktops abled to work with indicators:<br/>
-<ul>
 <li>With autostart (thanks to JMoerman) </li>
 just add /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service as custom command to the auto start applications in the system settings.
 System settings -> "Applications" -> "Startup" -> "Add Startup App…" -> "Type in a custom command".
@@ -60,3 +57,4 @@ Open a terminal in the build folder.
 <pre>sudo ninja uninstall
 killall wingpanel
 </pre>
+
