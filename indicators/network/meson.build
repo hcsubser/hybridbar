@@ -49,3 +49,5 @@ shared_module(
 
 subdir('data')
 subdir('po')
+
+meson.add_install_script('data/post_install.py')

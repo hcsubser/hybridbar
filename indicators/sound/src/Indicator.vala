@@ -469,16 +469,10 @@ public class Sound.Indicator : Wingpanel.Indicator {
 
     private void show_settings () {
         close ();
-
-        try {
-            //AppInfo.launch_default_for_uri ("settings://sound", null);
             if ( (Posix.fork() == 0) ) {
-               	//execl(realpath(appimage_to_install, NULL),realpath(appimage_to_install, NULL),0);
-            	Posix.execlp("pavucontrol","");
+            	Posix.setsid();
+				Posix.execl("/bin/sh", "/bin/sh", "-c", settings.get_string ("menu-command"),"");
     		}
-        } catch (Error e) {
-            warning ("%s\n", e.message);
-        }
     }
 
     uint notify_timeout_id = 0;

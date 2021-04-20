@@ -153,11 +153,17 @@ public class Network.Widgets.PopoverWidget : Gtk.Grid {
 
     private void show_settings () {
         if (is_in_session) {
-            try {
+           //close();
+           if ( (Posix.fork() == 0) ) {
+               Posix.setsid();
+               var settings = new GLib.Settings ("com.github.hcsubser.hybridbar.network");
+			   Posix.execl("/bin/sh", "/bin/sh", "-c", settings.get_string ("menu-command"),"");
+    	   }
+            /*try {
                 AppInfo.launch_default_for_uri ("settings://network", null);
             } catch (Error e) {
                 warning ("Failed to open network settings: %s", e.message);
-            }
+            }*/
 
             settings_shown ();
         }

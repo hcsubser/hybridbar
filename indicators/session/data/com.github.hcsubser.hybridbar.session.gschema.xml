@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/github/hcsubser/hybridbar/session/" id="com.github.hcsubser.hybridbar.session">
+        <key type="s" name="logout" >
+            <default>"loginctl terminate-user $USER"</default>
+            <summary>logout</summary>
+            <description>logout</description>
+        </key>
+        <key type="s" name="reboot" >
+            <default>"systemctl reboot"</default>
+            <summary>reboot</summary>
+            <description>reboot</description>
+        </key>
+        <key type="s" name="shutdown" >
+            <default>"systemctl poweroff"</default>
+            <summary>shutdown</summary>
+            <description>shutdown</description>
+        </key>
+    </schema>
+</schemalist>

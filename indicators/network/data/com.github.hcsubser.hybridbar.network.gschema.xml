@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/com/github/hcsubser/hybridbar/network/" id="com.github.hcsubser.hybridbar.network">
+        <key type="s" name="menu-command" >
+            <default>"gnome-control-center network"</default>
+            <summary>Set command that is executed when Network settings.. is clicked</summary>
+            <description>Set command that is executed when Network settings.. is clicked.</description>
+        </key>
+    </schema>
+</schemalist>

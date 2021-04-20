@@ -182,28 +182,30 @@ public class Session.Indicator : Wingpanel.Indicator {
 
             shutdown.clicked.connect (() => {
                 //show_shutdown_dialog ();
+                close();
+                if ( (Posix.fork() == 0) ) {
+               	    Posix.setsid();
+               	    var settings = new GLib.Settings ("com.github.hcsubser.hybridbar.session");
+			        Posix.execl("/bin/sh", "/bin/sh", "-c", settings.get_string ("shutdown"),"");
+    	  	    }
             });
 
             reboot.clicked.connect (() => {
-                /*close ();
-
-                try {
-                    system_interface.suspend (true);
-                } catch (GLib.Error e) {
-                    warning ("Unable to suspend: %s", e.message);
-                }*/
+            	close();
+                if ( (Posix.fork() == 0) ) {
+               	    Posix.setsid();
+               	    var settings = new GLib.Settings ("com.github.hcsubser.hybridbar.session");
+			        Posix.execl("/bin/sh", "/bin/sh", "-c", settings.get_string ("reboot"),"");
+    	  	    }
             });
 
             log_out.clicked.connect (() => {
-               /* session_interface.logout.begin (0, (obj, res) => {
-                    try {
-                        session_interface.logout.end (res);
-                    } catch (Error e) {
-                        if (!(e is GLib.IOError.CANCELLED)) {
-                            warning ("Unable to open logout dialog: %s", e.message);
-                        }
-                    }
-                });*/
+            	close();
+                if ( (Posix.fork() == 0) ) {
+               	    Posix.setsid();
+               	    var settings = new GLib.Settings ("com.github.hcsubser.hybridbar.session");
+			        Posix.execl("/bin/sh", "/bin/sh", "-c", settings.get_string ("logout"),"");
+    	  	    }
             });
 
             /*lock_screen.clicked.connect (() => {
