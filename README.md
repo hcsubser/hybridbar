@@ -23,13 +23,12 @@ You'll need the following dependencies:
 Run `meson` to configure the build environment and then `ninja` to build
 
     meson build --prefix=/usr
-    cd build
-    ninja
+    ninja -C build
 
-To install, use `ninja install` then execute with `wingpanel`
+To install, use `ninja install` then execute with `hybridbar`
 
-    sudo ninja install
-    wingpanel
+    sudo ninja -C build install
+    hybridbar
 
 ***Note this will only compile an empty bar, indicators have to be compiled manually, see below how***
 
