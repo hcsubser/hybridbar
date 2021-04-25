@@ -38,4 +38,27 @@ To build indicators there is a custom build script to do it all at once, otherwi
     cd indicators
     ./build.sh --prefix=/usr
 
-There are currently 6 indicatrs all forked from elementary os indicators, those include: applications menu. sound widget, calendar/clock, network applet, session manager and system tray(which currently does not seem to work under wayland, PRs welcome)
+There are currently 6 indicators all forked from elementary os indicators, those include: applications menu. sound widget, calendar/clock, network applet, session manager and system tray(which currently does not seem to work under wayland, PRs welcome)
+
+## Settings
+Change settings using dconf-editor or gsettings
+Examples with gsettings:
+
+    gsettings set com.github.hcsubser.hybridbar use-transparency false
+
+To turn of transparency.
+
+    gsettings set com.github.hcsubser.hybridbar.calendar menu-command [command]
+    gsettings set com.github.hcsubser.hybridbar.network menu-command [command]
+    gsettings set com.github.hcsubser.hybridbar.sound menu-command [command]
+    
+To set the command used when you click on the Settings... button of the corresponding widget.
+
+    gsettings set com.github.hcsubser.hybridbar.session logout [command]
+    gsettings set com.github.hcsubser.hybridbar.session shutdown [command]
+    gsettings set com.github.hcsubser.hybridbar.session reboot [command]
+    
+To change actions corresponding to each button, if you use systemd there is no need to change, defaults will work.
+
+I will eventually make a GUI for these settings but for now this will do it. There are some extra settings with formatting for clock, check them out using dconf-editor.
+
