@@ -23,7 +23,7 @@ public class Wingpanel.PanelWindow : Gtk.Window {
     private Widgets.Panel panel;
     private int monitor_number;
     private int monitor_width = 500;
-    //private int monitor_height =500 ;
+    private int monitor_height =500 ;
     private int monitor_x;
     private int monitor_y;
     private int panel_height;
@@ -115,13 +115,14 @@ public class Wingpanel.PanelWindow : Gtk.Window {
     private void update_panel_dimensions () {
         panel_height = panel.get_allocated_height ();
 
-        monitor_number = screen.get_primary_monitor ();
-        Gdk.Rectangle monitor_dimensions = get_display ().get_primary_monitor ().get_geometry ();
+        //monitor_number = get_display ().get_primary_monitor ();
+        Gdk.Monitor monitor = get_display ().get_primary_monitor () ?? get_display ().get_monitor (0);
+        Gdk.Rectangle monitor_dimensions = monitor.get_geometry ();
 
-        /* monitor_width = monitor_dimensions.width; */
-        /* monitor_height = monitor_dimensions.height; */
+        monitor_width = monitor_dimensions.width;
+        monitor_height = monitor_dimensions.height;
 
-        /* this.set_size_request (monitor_width, (popover_manager.current_indicator != null ? monitor_height : -1)); */
+        this.set_size_request (monitor_width, (popover_manager.current_indicator != null ? monitor_height : -1));
 
         monitor_x = monitor_dimensions.x;
         monitor_y = monitor_dimensions.y;
@@ -163,9 +164,10 @@ public class Wingpanel.PanelWindow : Gtk.Window {
         bool no_monitor_right = true;
         bool no_monitor_above = true;
         for (var i = 0; i < n_monitors; i++) {
-            var rect = display.get_monitor (i).get_geometry ();
+            var monitor = display.get_monitor (i);
+            var rect = monitor.get_geometry ();
             screen_width = int.max (screen_width, rect.x + rect.width);
-            if (i == monitor_number) {
+            if (monitor.is_primary()) {
                 continue;
             }
 
@@ -179,7 +181,7 @@ public class Wingpanel.PanelWindow : Gtk.Window {
         }
 
         long struts[12] = { 0 };
-        var scale_factor = this.get_scale_factor ();
+        var scale_factor = get_scale_factor ();
         if (no_monitor_left) {
             struts [0] = (monitor_x + monitor_width) * scale_factor;
             struts [4] = monitor_y * scale_factor;
@@ -212,9 +214,9 @@ public class Wingpanel.PanelWindow : Gtk.Window {
 
             this.expanded = false;
 
-             GtkLayerShell.set_keyboard_interactivity(this, false); 
-            /* this.set_size_request (monitor_width, expanded ? monitor_height : -1); */
-            /* this.resize (monitor_width, expanded ? monitor_height : 1); */
+            GtkLayerShell.set_keyboard_interactivity(this, false);
+            this.set_size_request (monitor_width, expanded ? monitor_height : -1);
+            this.resize (monitor_width, expanded ? monitor_height : 1);
         }
     }
 }
