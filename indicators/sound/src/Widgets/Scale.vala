@@ -35,23 +35,24 @@ public class Sound.Widgets.Scale : Gtk.EventBox {
 
     construct {
         set_above_child (false);
+        var scale_factor = get_scale_factor ();
 
         var image = new Gtk.Image.from_icon_name (icon, Gtk.IconSize.DIALOG);
-        image.pixel_size = 48;
+        image.pixel_size = 48 / scale_factor;
 
         var image_box = new Gtk.EventBox ();
         image_box.add (image);
 
         scale_widget = new Gtk.Scale.with_range (Gtk.Orientation.HORIZONTAL, min, max, step);
-        scale_widget.margin_start = 6;
-        scale_widget.set_size_request (175, -1);
+        scale_widget.margin_start = 6 / scale_factor;
+        scale_widget.set_size_request (175 / scale_factor, -1);
         scale_widget.set_draw_value (false);
         scale_widget.hexpand = true;
 
         var switch_widget = new Gtk.Switch ();
         switch_widget.valign = Gtk.Align.CENTER;
-        switch_widget.margin_start = 6;
-        switch_widget.margin_end = 12;
+        switch_widget.margin_start = 6 / scale_factor;
+        switch_widget.margin_end = 12 / scale_factor;
 
         var grid = new Gtk.Grid ();
         grid.hexpand = true;
