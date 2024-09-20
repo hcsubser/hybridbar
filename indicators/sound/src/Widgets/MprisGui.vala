@@ -173,18 +173,19 @@ public class Sound.Widgets.ClientWidget : Gtk.Grid {
 
         load_remote_art_cancel = new Cancellable ();
 
+        var scale_factor = get_scale_factor ();
         background = new Gtk.Image ();
-        background.pixel_size = ICON_SIZE;
+        background.pixel_size = ICON_SIZE / scale_factor;
 
         mask = new Gtk.Image.from_resource ("/io/elementary/wingpanel/sound/image-mask.svg");
         mask.no_show_all = true;
-        mask.pixel_size = 48;
+        mask.pixel_size = 48 / scale_factor;
 
         var overlay = new Gtk.Overlay ();
         overlay.can_focus = true;
-        overlay.margin_bottom = 2;
-        overlay.margin_end = 4;
-        overlay.margin_start = 4;
+        overlay.margin_bottom = 2 / scale_factor;
+        overlay.margin_end = 4 / scale_factor;
+        overlay.margin_start = 4 / scale_factor;
         overlay.add (background);
         overlay.add_overlay (mask);
 
@@ -237,7 +238,7 @@ public class Sound.Widgets.ClientWidget : Gtk.Grid {
         next_btn.sensitive = false;
         next_btn.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
 
-        margin_end = 6;
+        margin_end = 6 / scale_factor;
         add (titles_events);
         add (prev_btn);
         add (play_btn);

@@ -29,12 +29,13 @@ public class DisplayWidget : Gtk.Grid {
     construct {
         var provider = new Gtk.CssProvider ();
         provider.load_from_resource ("io/elementary/wingpanel/sound/indicator.css");
+        var scale_factor = get_scale_factor ();
 
         var volume_icon = new Gtk.Image ();
-        volume_icon.pixel_size = 24;
+        volume_icon.pixel_size = 24 / scale_factor;
 
         var mic_icon = new Gtk.Spinner ();
-        mic_icon.margin_end = 18;
+        mic_icon.margin_end = 18 / scale_factor;
 
         var mic_style_context = mic_icon.get_style_context ();
         mic_style_context.add_provider (provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
@@ -67,7 +68,7 @@ public class DisplayWidget : Gtk.Grid {
 
         button_press_event.connect ((e) => {
             /* Determine whether scrolling on mic icon or not */
-            if (show_mic && e.x < 24 + mic_icon.margin_end) {
+            if (show_mic && e.x < volume_icon.pixel_size + mic_icon.margin_end) {
                 mic_press_event (e);
             } else {
                 volume_press_event (e);
